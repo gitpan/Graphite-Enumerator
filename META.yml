@@ -3,21 +3,23 @@ abstract: 'Recursively enumerate graphite metrics'
 author:
   - unknown
 build_requires:
-  ExtUtils::MakeMaker: '0'
+  ExtUtils::MakeMaker: 0
 configure_requires:
-  ExtUtils::MakeMaker: '0'
+  ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.140640'
+generated_by: 'ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: '1.4'
+  version: 1.4
 name: Graphite-Enumerator
 no_index:
   directory:
     - t
     - inc
 requires:
-  JSON: '0'
-  LWP::UserAgent: '0'
-version: '0.01'
+  JSON: 0
+  LWP::UserAgent: 0
+resources:
+  repository: https://github.com/rgs/Graphite-Enumerator.git
+version: 0.02
